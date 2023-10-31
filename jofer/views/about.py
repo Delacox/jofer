@@ -6,6 +6,7 @@ from jofer.components.button import button
 
 def about() -> rx.Component: 
     return rx.vstack(
+                
         title("Nosotros", Color.GREEN_LOGO.value),
         
         rx.hstack(
@@ -57,12 +58,15 @@ def about() -> rx.Component:
             ),
             
             spacing = Size.BIG.value,   
-            padding_top = Size.DEFAULT.value
+            padding_top = Size.DEFAULT.value,
+
      
         ),
         
         spacing = Size.LARGE.value,
-        padding_top = Size.MEDIUM.value
+        padding_top = Size.MEDIUM.value,
+ 
+    
     )
     
     

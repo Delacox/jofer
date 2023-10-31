@@ -28,5 +28,9 @@ def index() -> rx.Component:
 app = rx.App(
     style=styles.BASE_STYLES,
     stylesheets=["./styles.css"])
-app.add_page(index)
+app.add_page(
+    index,
+    title="JOFER | Excelencia en asesoría para tu empresa",
+    description="Con más de cuatro décadas de experiencia somos líderes provinciales en servicios para pequeñas y medianas empresas.",
+    image="logo.jpg")
 app.compile() 

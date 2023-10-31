@@ -6,7 +6,7 @@ from jofer.components.data import data
 
 def datas() -> rx.Component: 
     return rx.center(
-        
+         
         rx.hstack(   
             data("+20k", "Clientes atendidos"),            
             data("+18k", "Altas de autónomos"),            

@@ -142,10 +142,10 @@ export default function Component() {
 </Box>
   <NextHead>
   <title>
-  {`Reflex App`}
+  {`JOFER | Excelencia en asesoría para tu empresa`}
 </title>
-  <meta content={`A Reflex app.`} name={`description`}/>
-  <meta content={`favicon.ico`} property={`og:image`}/>
+  <meta content={`Con más de cuatro décadas de experiencia somos líderes provinciales en servicios para pequeñas y medianas empresas.`} name={`description`}/>
+  <meta content={`logo.jpg`} property={`og:image`}/>
 </NextHead>
 </Fragment>
   )
