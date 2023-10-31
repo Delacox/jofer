@@ -1,0 +1,11 @@
+from enum import Enum
+
+class Color(Enum):
+    BLACK = "#202020"
+    GREEN_LOGO = "#008D00"
+    WHITE = "#F0F0F0"
+    GREEN_INTENSITY1 = "#E0F0A0"
+    GREEN_INTENSITY2 = "#A8CE6B"
+    GREEN_INTENSITY3 = "#6AAD3B"
+    GREEN_INTENSITY4 = "#00672D"
+    GREEN_INTENSITY5 = "#204030"
