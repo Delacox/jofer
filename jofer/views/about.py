@@ -10,7 +10,13 @@ def about() -> rx.Component:
         title("Nosotros", Color.GREEN_LOGO.value),
         
         rx.hstack(
-            rx.flex(rx.image(src="nosotros.jpg", width="100%", height="auto"),),
+            rx.flex(rx.image(
+                src="nosotros.jpg", 
+                width="100%", 
+                height="auto",
+                border_radius = "2%",
+                ),
+            ),
             
             rx.vstack(
                 rx.text(
@@ -43,13 +49,13 @@ def about() -> rx.Component:
                 
                 
                 
-                rx.center(
-                    rx.link(
-                        button("Solicitar ahora")                     
-                    ),
-                    width = "100%",
+                
+                rx.link(
+                    button("Solicitar ahora", Color.GREEN_INTENSITY4.value,)                     
+                ),
                     
-                ),             
+                    
+                             
                 
                 align_items = "start",
                 width = "95%",

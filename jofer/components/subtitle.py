@@ -1,7 +1,6 @@
 import reflex as rx
 from jofer.styles.size import Size
 from jofer.styles.fonts import Fonts
-from jofer.styles.color import Color
 
 
 def subtitle(text: str, color: str) -> rx.Component: 

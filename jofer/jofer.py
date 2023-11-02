@@ -5,7 +5,7 @@ from jofer.styles.size import Size
 from jofer.components.navbar import navbar
 from jofer.views.about import about
 from jofer.views.datas import datas
-from jofer.components.data import data
+from jofer.views.services import services
 
 def index() -> rx.Component:
     return rx.box(
@@ -17,6 +17,13 @@ def index() -> rx.Component:
             )       
         ),
         datas(),
+        rx.center(
+            rx.vstack(
+                services(),
+                max_width=styles.MAX_WIDTH,
+            )       
+        ),
+        
         
         spacing = Size.DEFAULT.value      
     )
